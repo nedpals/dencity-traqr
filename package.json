@@ -4,11 +4,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "http-server dist"
   },
   "dependencies": {
     "bulma": "^0.9.3",
     "events": "^3.3.0",
+    "http-server": "^13.0.2",
     "mapbox-gl": "^2.5.1",
     "normalize.css": "^8.0.1",
     "sass": "^1.42.1",
